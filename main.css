@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Hind);
+
+body{
+	font: "Hind","Helveltica","Sant";
+}
+
+header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color: #63A9E6;
+	line-height: 50px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #63A9E6;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.career{
+	position:relative;
+	top: 120px;
+}
+
+.grid {
+	margin-top: 200px;
+	
+}
+
+.column {
+	float: left;
+	width: 46%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.row {
+	clear: both;
+}
+
+/*
+colors  
+blue #63A9E6
+light blue #ABDDEF
+
+
+*/
