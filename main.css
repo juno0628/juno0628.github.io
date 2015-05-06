@@ -1,7 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Hind);
 
 body{
-	font: "Hind","Helveltica","Sant";
+	font-family: "Hind","Helveltica","Sans-serif";
+	font-size: ;
 }
 
 header {
@@ -29,6 +30,8 @@ footer {
 .career{
 	position:relative;
 	top: 120px;
+	border: thin;
+	margin-left: 10px;
 }
 
 .grid {
