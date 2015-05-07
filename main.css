@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Hind);
 
 body{
-	font-family: "Hind","Helveltica","Sans-serif";
-	font-size: ;
+	font-family: 'Hind','Helveltica',Sans-serif;
+	background-color: #F2F2F2;
 }
 
 header {
@@ -30,7 +30,8 @@ footer {
 .career{
 	position:relative;
 	top: 120px;
-	border: thin;
+	border: thick black 1px;
+	background-color: #E5E5E5;
 	margin-left: 10px;
 }
 
@@ -55,5 +56,3 @@ colors
 blue #63A9E6
 light blue #ABDDEF
 
-
-*/
