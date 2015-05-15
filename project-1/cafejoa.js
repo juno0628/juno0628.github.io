@@ -10,6 +10,7 @@ var interval = 100;
 //coffee animation
 
 
+$('#frontcoffee').style.transform = 'rotate(6deg)';
 // var Coffee= function Coffee('#frontcoffee') {
 // 	this.svg = Snap('#frontcoffee');
 // 	this.coffee = this.svg.select('#coffee');
