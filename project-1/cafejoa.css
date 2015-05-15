@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Calligraffitti);
+
 body {
-	font-family: helvetica,serif;
+	font-family: 'Calligraffitti',helvetica,serif;
 	text-align: center;
 }
 
@@ -11,6 +13,7 @@ header {
 
 .column img{
 	width: 5%;
+
 }
 
 .row {
@@ -28,14 +31,13 @@ h5 {
 
 li {
 	text-align: center;
-	list-style-type: circle;
+	list-style-position: inside;
+	list-style-type: decimal;
 }
 
-
 .frontcontainer{
-	position: absolute;
-	left: 20%;
-	right: 20%;
+	width: 100%;
+	position: relative;
 }
 .all{
 	margin-top: 100px;
@@ -65,7 +67,6 @@ li {
 }
 
 .row{
-
 	clear:both;
 }
 

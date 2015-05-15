@@ -8,6 +8,8 @@ var totalClick = 0;
 var interval = 100;
 
 //coffee animation
+
+
 // var Coffee= function Coffee('#frontcoffee') {
 // 	this.svg = Snap('#frontcoffee');
 // 	this.coffee = this.svg.select('#coffee');
@@ -59,13 +61,15 @@ $('.column').click(function(){
 	//user GUI for selecting
 	$(this).addClass('green');
 	$(this).css('color','green');
+	$(this).children('img').css('width','9%');
 	//adding element to billing 
 	console.log($(this).children('span').text());
 	$('ul').append('<li>'+$(this).text()+'</li>');
 	$('ul').scrollTop(999999999);
 	//calculate   
 	currentPrice = parseFloat($(this).children('span').text());
-	subTotal += Math.round(currentPrice*100)/100;
+	subTotal += currentPrice;
+	subTotal = Math.round((subTotal*100))/100
 	taxAmount = Math.round((subTotal * taxRate/100)*100)/100;
 	total = Math.round((taxAmount + subTotal)*100)/100;
 	console.log("subtotal is " +subTotal);
@@ -104,6 +108,8 @@ var reset = function(){
 	totalClick = 0; 
 	//cancel selection 
 	$('.column').css('color','black');
+	$('.column').removeClass('green');
+	$('.column').children('img').css('width','5%');
 	//cancel billing
 	$('ul').children('li').text('');
 	$('ul').children('li').remove();
