@@ -7,7 +7,7 @@ var currentPrice =0;
 var totalClick = 0; 
 var interval = 100;
 
-//frontpage animation
+//coffee animation
 
 $('#frontcoffee2').on('load', function(){
 	$('#frontcoffee1').css({opacity: 1});
@@ -19,8 +19,44 @@ $('a').children('img').on('mouseover',function(){
 	$('#frontcoffee1').css({transform: 'rotate(45deg) translate(105px,50px)'});
 	$('a').parent().children('h5').css({transform: 'translate(0px,-100px)'})
 });
+// $('#frontcoffee2').on('mouseover', function(){
+// 	$('#frontcoffee1').animate({transform: 'rotate:(30deg)');
+// });
+// $('#frontcoffee').style.transform = 'rotate(6deg)';
+// var frontcoffee=document.querySelector('#frontcoffee')
+// frontcoffee.style.transform = 'rotate(30deg)';
 
-// mainpage - sliding up and down menu and steps 
+
+
+// var Coffee= function Coffee('#frontcoffee') {
+// 	this.svg = Snap('#frontcoffee');
+// 	this.coffee = this.svg.select('#coffee');
+// }
+
+// Coffee.prototype.move = function(){
+// 	var random = Math.random()*20
+// 	this.coffee.animate({
+// 		transform: 'r'+random+20+',50,50';
+// 	},100)
+// }
+
+// window.addEventListener('load',function(){
+// 	window.coffee =new Coffee('#coffee');
+// })
+
+//adding clock to menu side 
+// var clock = function(){return date.getHours()+":"+date.getMinutes()
+//	console.log(clock();)};
+
+//setInterval to get hours every 60 second
+//window.setInterval(clock, 60000)
+
+//
+
+
+
+
+// sliding up and down menu and steps 
 $('.tag1').children('h6').click(function(){
 	$(this).parent().slideUp();
 })
@@ -47,13 +83,6 @@ $('.thirdtable').children('h2').click(function(){
 
 
 //getting price info from clicking menus and putting to billing and calculator
-
-
-$('.column').on('mouseover',function(){
-	$(this).children('img').css({transition: 'all 1s'});
-	$(this).children('img').css({transform: 'rotate(360deg)'});
-});
-
 
 $('.column').click(function(){
 	totalClick += 1; 
