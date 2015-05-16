@@ -9,39 +9,48 @@ var interval = 100;
 
 //frontpage animation
 
-$('#frontcoffee2').on('load', function(){
-	$('#frontcoffee1').css({opacity: 1});
+$('#frontcoffee2').on('load', function() {
+	$('#frontcoffee1').css({
+		opacity: 1});
 });
 
-$('a').children('img').on('mouseover',function(){
-	$('#frontcoffee2').css({transform: 'rotate(45deg) translate(0px,80px)'});
-	$('#frontcoffee2').css({opacity: 0.5});
-	$('#frontcoffee1').css({transform: 'rotate(45deg) translate(105px,50px)'});
-	$('a').parent().children('h5').css({transform: 'translate(0px,-100px)'})
+$('a').children('img').on('mouseover',function() {
+	$('#frontcoffee2').css({
+		transform: 'rotate(45deg) translate(0px,80px)'
+	});
+	$('#frontcoffee2').css({
+		opacity: 0.5
+	});
+	$('#frontcoffee1').css({
+		transform: 'rotate(45deg) translate(105px,50px)'
+	});
+	$('a').parent().children('h5').css({
+		transform: 'translate(0px,-100px)'
+	})
 });
 
 // mainpage - sliding up and down menu and steps 
-$('.tag1').children('h6').click(function(){
+$('.tag1').children('h6').click(function() {
 	$(this).parent().slideUp();
 })
 
-$('.firsttable').children('h2').click(function(){
+$('.firsttable').children('h2').click(function() {
  $('.tag1').slideDown();
 });
 
-$('.tag2').children('h6').click(function(){
+$('.tag2').children('h6').click(function() {
 	$(this).parent().slideUp();
 })
 
-$('.secondtable').children('h2').click(function(){
+$('.secondtable').children('h2').click(function() {
  $('.tag2').slideDown();
 });
 
-$('.tag3').children('h6').click(function(){
+$('.tag3').children('h6').click(function() {
 	$(this).parent().slideUp();
 })
 
-$('.thirdtable').children('h2').click(function(){
+$('.thirdtable').children('h2').click(function() {
  $('.tag3').slideDown();
 });
 
@@ -49,13 +58,15 @@ $('.thirdtable').children('h2').click(function(){
 //getting price info from clicking menus and putting to billing and calculator
 
 
-$('.column').on('mouseover',function(){
-	$(this).children('img').css({transition: 'all 1s'});
-	$(this).children('img').css({transform: 'rotate(360deg)'});
+$('.column').on('mouseover',function() {
+	$(this).children('img').css({
+		transition: 'all 1s'});
+	$(this).children('img').css({
+		transform: 'rotate(360deg)'});
 });
 
 
-$('.column').click(function(){
+$('.column').click(function() {
 	totalClick += 1; 
 
 	//user GUI for selecting
@@ -116,7 +127,7 @@ var reset = function(){
 }
 
 //restart button
-$('.restart').click(function(){
+$('.restart').click(function() {
 		reset();
 		calculate();
 		bill();
@@ -124,9 +135,9 @@ $('.restart').click(function(){
 
 
 //next customer button 
-$('.next').click(function(){
+$('.next').click(function() {
 	var response = window.confirm("Are you going to cancel current work?");
- 	if (response==true){
+ 	if (response==true) {
 	reset();
 	calculate();	
 	bill();
@@ -136,9 +147,9 @@ $('.next').click(function(){
 })
 
 //complete
-$('.complete').click(function(){
+$('.complete').click(function() {
 	var complete = window.confirm("Save and process?");
-	if (complete==true){
+	if (complete==true) {
 		window.alert("completed");
 		reset();
 		calculate();
