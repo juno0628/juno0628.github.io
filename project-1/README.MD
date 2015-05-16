@@ -1,6 +1,6 @@
 *creator Junho Rhee
 * application name: Cafe Joa Point of Sales System
-* location: 
+* url: https://github.com/juno0628/juno0628.github.io/blob/master/project-1/cafejoa_main.html
 
 * how to use
 1. start frontpage html 
