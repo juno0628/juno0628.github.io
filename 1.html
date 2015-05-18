@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JQuery Fun</title>
+    <link rel="stylesheet" href="">
+    <script src="jquery-2.1.4.js"></script>
+    <style type="text/css">
+        .alert {
+            border-color:solid 4px red;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div> Methods</div>
+    <ul>
+        <li>disabled select</li>
+        <li>slideup</li>
+        <li>select</li>
+        <li>parent</li>
+        <li>prepend, prependTo</li>
+        
+    </ul>
+
+    </div>
+
+    <div>
+        <input value= "admin" disabled="disabled">
+    </div>
+    <div>
+        <input value= "here is some text">
+        <ul class= "list">
+            <li>List Item 1</li>
+            <li>List Item 2</li>        
+            <li>List Item 3</li>
+        </ul>
+    </div>
+
+    <script>
+        // $("input:disabled").addClass("alert");
+        // $("input").on("select", function(){
+        //     $(this).parent("div").slideUp();
+        // })
+
+        // $(".list").append("<li>I want this line to be at the end of list</li>")
+        // $(".list").prepend("<li>I want this line to be at the top of the list</li>")
+        // $("<li>I also want this line to be at the top of the list</li>").prependTo(".list");
+
+
+    </script>
+</body>
+</html>

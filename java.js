@@ -8,18 +8,19 @@ var skyblue = function(event) {
 }
 
 
-var h1 = document.querySelector('h1');
-h1.addEventListener('mouseover',skyblue);
+// var h1 = document.querySelector('h1');
+// h1.addEventListener('mouseover',skyblue);
 
-var h2 = document.querySelector('h2');
-h2.addEventListener('mouseover',skyblue);
+// var h2 = document.querySelector('h2');
+// h2.addEventListener('mouseover',skyblue);
+
 //add makeIt skyblue to the p tag and the anchor tags
 
-var first = document.querySelector('.first');
-first.addEventListener('mouseover', skyblue);
+// var first = document.querySelector('.first');
+// first.addEventListener('mouseover', skyblue);
 
-var second = document.querySelector('.second');
-second.addEventListener('mouseover', skyblue);
+// var second = document.querySelector('.second');
+// second.addEventListener('mouseover', skyblue);
 
 
 
