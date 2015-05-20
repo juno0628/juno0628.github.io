@@ -2,16 +2,20 @@
 
 body{
 	font-family: 'Hind','Helveltica',Sans-serif;
-	background-color: #F2F2F2;
+	background-color: #F5F2F2;
+	left: 5%;
+	right: 5%;
 }
 
 header {
 	position: absolute;
 	top: 0;
+	left: 0%;
+	right: 0%;
 	width: 100%;
-	background-color: #63A9E6;
+	background-color: #68A9E7;
 	line-height: 50px;
-	margin: 0;
+	margin: 5%;
 	padding: 0;
 	text-align: center;
 }
@@ -20,7 +24,7 @@ footer {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	background-color: #63A9E6;
+	background-color: #68A9E7;
 	line-height: 20px;
 	margin: 0;
 	padding: 0;
