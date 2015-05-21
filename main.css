@@ -1,21 +1,18 @@
-@import url(http://fonts.googleapis.com/css?family=Hind);
+@import url(http://fonts.googleapis.com/css?family=Calligraffitti);
 
 body{
-	font-family: 'Hind','Helveltica',Sans-serif;
+	position: relative;
+	font-family: 'Calligraffitti','Helveltica',Sans-serif;
 	background-color: #F5F2F2;
-	left: 5%;
-	right: 5%;
 }
 
 header {
 	position: absolute;
 	top: 0;
-	left: 0%;
-	right: 0%;
 	width: 100%;
 	background-color: #68A9E7;
-	line-height: 50px;
-	margin: 5%;
+	line-height: 30px;
+	margin: 0;
 	padding: 0;
 	text-align: center;
 }
@@ -33,25 +30,25 @@ footer {
 
 .career{
 	position:relative;
-	top: 120px;
+	top: 100px;
 	border: thick black 1px;
 	background-color: #E5E5E5;
 	margin-left: 10px;
 }
-
-.grid {
-	margin-top: 200px;
-	
+.grid{
+	position: relative;
+	top: 100px;
 }
 
 .column {
 	float: left;
-	width: 46%;
+	width: 45%;
 	margin-left: 10px;
 	margin-right: 10px;
 }
 
 .row {
+	position: relative;
 	clear: both;
 }
 
