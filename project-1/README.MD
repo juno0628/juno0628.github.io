@@ -1,11 +1,15 @@
 *creator Junho Rhee
 * application name: Cafe Joa Point of Sales System
-* url: https://github.com/juno0628/juno0628.github.io/blob/master/project-1/cafejoa_main.html
+* url: https://github.com/juno0628/juno0628.github.io/blob/master/project-1/index.html
 
 * how to use
-1. start frontpage html 
-2. click coffee icon to open main menu
-3. main menu page states prices and items on sale
-4. any click on menu item will enlarge each icon and subsequently add to calculate area and billing.
-5. restart or next customer will undo any changes
-6. complete button will complete the sales process
+- start frontpage html 
+- click coffee icon to open main menu
+- main menu page states prices and items on sale
+- any click on menu item will enlarge each icon and subsequently 	
+	add to calculate area and billing.
+- restart or next customer will undo any changes
+- complete button will complete the sales process
+
+* any questions?
+- please contact publisher
