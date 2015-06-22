@@ -1,8 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Calligraffitti);
+@import url(http://fonts.googleapis.com/css?family=Exo+2:300);
 
-body{
+body {
 	position: relative;
-	font-family: 'Calligraffitti','Helveltica',Sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	background-color: #F5F2F2;
 }
 
@@ -28,14 +28,14 @@ footer {
 	text-align: center;
 }
 
-.career{
+.career {
 	position:relative;
 	top: 100px;
 	border: thick black 1px;
 	background-color: #E5E5E5;
 	margin-left: 10px;
 }
-.grid{
+.grid {
 	position: relative;
 	top: 100px;
 }
@@ -52,6 +52,11 @@ footer {
 	clear: both;
 }
 
+li p {
+	padding-left: 20px;
+	background-color: lightgreen;
+	border-radius: 12px;
+}
 /*
 colors  
 blue #63A9E6
