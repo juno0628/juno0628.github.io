@@ -6,6 +6,10 @@ body {
 	background-color: #F5F2F2;
 }
 
+img {
+	width: 1%;
+}
+
 header {
 	position: absolute;
 	top: 0;
