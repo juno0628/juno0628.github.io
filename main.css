@@ -32,8 +32,8 @@ footer {
 	position:relative;
 	top: 100px;
 	border: thick black 1px;
-	background-color: #E5E5E5;
 	margin-left: 10px;
+	margin-right: 10px;
 }
 .grid {
 	position: relative;
