@@ -2,7 +2,17 @@ body {
 	text-align: center;
 }
 
+#quote-image {
+	height: 400px;
+	width: 100%;
+	display: block;
+}
+
 hr {
 	margin-top: 2px;
 	margin-bottom: 2px;
+}
+
+.navbar-static-top {
+	margin-bottom: 0px;
 }
