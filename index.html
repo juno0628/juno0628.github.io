@@ -3,57 +3,109 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Junho Rhee's Website</title>
-	<link rel="stylesheet" href="main.css">
+	<title>Viewing Junho's Website</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-	<header>
-		<h1> Junho Rhee's Website<h1>
-	</header>
-		<div class="career">
-			<div class="github">
-				<img src="http://i.imgur.com/BKkCuve.gif" alt="github">
+	<nav class="navbar btn-info navbar-static-top info">
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li class="goto">
+					<a><strong> Junho Rhee's Website </strong></a>
+				<li id="goto-home" class="goto">
+					<a href="#home">Home</a>
+				</li>
+				<li id="goto-about" class="goto">
+					<a href="#about">About</a>
+				</li>
+				<li id="goto-projects" class="goto">
+					<a href="#projects">Projects</a>
+				</li>
+				<li id="goto-contact" class="goto">
+					<a href="#contact">Contact</a>
+				</li>
+		</div>
+	</nav>
+	<div class="container">
+		<div id="about" class="row about">
+			<h1>About</h1>
+			<div class="col-lg-4">
+				<strong>Hometown</strong><p>I was born in <strong>Raleigh, North Carolina</strong>, United States and grew up in South Korea. I came to the United States for college.</p>
+			</div>
+			<div class="col-lg-4">
+				<strong>Background</strong><p><strong>Web Developer/Data Analyst</strong> interested in problem solving and creative thinking. I recently decided to change my career to web programming. <em>I was impressed by the mass effect of computer programs as it has now become an essential part of our lives.</em></p>
+			</div>
+			<div class="col-lg-4">
+				<strong>Interest</strong><p>I have traveled to <strong>twelve countries</strong> and still counting. I am adventurous and always willing to try new things</p>
+			</div>
+		</div>
+	
+	<hr class="featurette-divider">
+	<div id="projects" class="row projects info">
+		<h1>Projects</h1>
+		<div class="col-lg-12">
+			<span class="glyphicon glyphicon-bed"></span>
+			<a href="https://travelplanner-travelkit.herokuapp.com"><strong>Travel-Planner "Travel-Kit"</strong>
+			</a>
+			<p>
+				This web application was developed to intergrate travel planning process for individuals. Users can add and change estimated amount of budget and expense. This was built with Ruby on Rails, JavaScript AJAX calls, JQuery, Bootstrap and CSS. (user login: guest1/guest1)
+			</p> 
+		</div>
+		<div class="col-lg-12">
+			<span class="glyphicon glyphicon-credit-card"></span>
+			<a href="https://juno0628.github.io/pos-system/index.html"><strong>POS system</strong>
+			</a>
+			<p>
+				This user-friendly web application was developed to expedite billing system for restaurants. JavaScript, JQuery, HTML and CSS were used.
+			</p> 
+		</div>
+		<div class="col-lg-12">
+			<span class="glyphicon glyphicon-text-background"></span>
+			<a href="https://quiet-shelf-8683.herokuapp.com/topics"><strong>Forum web application</strong></a>
+			<p>
+				This single page web application was built to enable users to upload topics and comments on real-time basis. The user participation is visually shown via chart. Ruby, Sinatra, JavaScript, HTML, CSS were used.
+			</p>
+		</div>
+	</div>
+	<hr class="featurette-divider">
+	<div id="contact" class="row contact info">
+		<h1>Contact Information</h1>
+		<div class="col-lg-12">
+			<p> please send email to: juno0628@gmail.com </p>
+		</div>
+		<div class="github col-md-6">
+				<img src="http://i.imgur.com/BKkCuve.gif" alt="github" height="100px">
 				<a href="https://github.com/juno0628">Github Page</a>
 			</div>
-			<div class="linkedin">
-				<img src="http://i.imgur.com/UEIOiGm.jpg" alt="linkedin">
+			<div class="linkedin col-md-6">
+				<img src="http://i.imgur.com/UEIOiGm.jpg" alt="linkedin" height="100px">
 				<a href="https://www.linkedin.com/in/junhorhee">Linkedin Page</a>
 			</div>
+	</div>
+	</div>
+	<!-- 
+		<div class="career">
+			
 		</div>
 		<div class ="grid">
 				<div class="column">
-					<h2>Web Application Projects</h2>
+					<strong>Web Application Projects</strong>
 
-						<li>
-							<a href="https://travelplanner-travelkit.herokuapp.com"><h2>Travel-Planner "Travel-Kit"</h2></a>
-							<p>
-								This web application was developed to intergrate travel planning process for individuals. Users can add and change estimated amount of budget and expense. This was built with Ruby on Rails, JavaScript AJAX calls, JQuery, Bootstrap and CSS. (user login: guest1/guest1)
-							</p> 
-						</li>
-						<li>
-							<a href="https://juno0628.github.io/pos-system/index.html"><h2>POS system</h2></a>
-							<p>
-								This user-friendly web application was developed to expedite billing system for restaurants. JavaScript, JQuery, HTML and CSS were used.
-							</p> 
-						</li>
-						<li>	
-							<a href="https://quiet-shelf-8683.herokuapp.com/topics"><h2>Forum web application</h2></a>
-							<p>
-								This single page web application was built to enable users to upload topics and comments on real-time basis. The user participation is visually shown via chart. Ruby, Sinatra, JavaScript, HTML, CSS were used.
-							</p>
-						</li>
+						
+						
 				</div>
 				<div class ="column first"> 
-					<h2>Profile</h2>
+					<strong>Profile</strong>
 						<p>
-							I was born in Raleigh, North Carolina, United States and grew up in South Korea. 
-							I came to the United States for college.
+							I was born in Raleigh, North Carolina, United States and grew up in South Korea. I came to the United States for college.
+						</p>
 					  	I studied at Stony Brook University. I worked as data analyst for three years at Samsung Electronics before joining General Assembly.
 					  </p>
 				</div>
 				<div class ="column second">
-					<h2>Web Development</h2>
+					<strong>Web Development</strong>
 						<p>
 							At General Assembly, I worked on various projects including POS system webpage,forum website and online quiz application. I used the following technologies to develop related projects.   
 						</p>
@@ -64,7 +116,9 @@
 						<li>Git, Agile Development</li>
 				</ol>
 				</div>
-		</div>
-	<script src="javascript.js"></script>
+		</div> -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/javascript.js"></script>
 </body>
 </html>
