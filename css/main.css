@@ -15,4 +15,5 @@ hr {
 
 .navbar-static-top {
 	margin-bottom: 0px;
+	z-index: 501;
 }
