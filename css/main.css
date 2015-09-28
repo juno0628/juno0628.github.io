@@ -19,3 +19,30 @@ hr {
 	z-index: 501;
 	font-size: 20px;
 }
+
+p {
+	font-size: 17px;
+}
+
+#projects {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #5bc0de;
+}
+
+@media (max-width: 800px) {
+	body {
+		text-align: center;
+	}
+
+	.navbar-static-top {
+	margin-bottom: 0px;
+	z-index: 501;
+	font-size: 18px;
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+}
