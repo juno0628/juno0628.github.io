@@ -27,17 +27,41 @@ p {
 
 #projects {
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 	background-color: #5bc0de;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
-
 #about {
 	padding-left: 60px;
 	padding-right: 60px;
 }
+
+.arrow-down {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 30px solid #5bc0de;
+	left: 48%;
+}
+
+.arrow-down-white {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 30px solid #FFF;
+	left: 48%;
+}
+
+#navbar-all {
+	padding-bottom: 20px;
+}
+
 @media (max-width: 800px) {
 	body {
 		text-align: center;
