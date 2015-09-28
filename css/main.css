@@ -1,6 +1,7 @@
 body {
-	text-align: center;
+	text-align: center;	
 }
+
 
 #quote-image {
 	height: 400px;
@@ -28,8 +29,15 @@ p {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background-color: #5bc0de;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
+
+#about {
+	padding-left: 60px;
+	padding-right: 60px;
+}
 @media (max-width: 800px) {
 	body {
 		text-align: center;
