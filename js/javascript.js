@@ -1,8 +1,8 @@
 $(document).ready(function(){
-	console.log("lets get things started");
+	console.log("added");
 	var svgImg = d3.select("div.image-box").append("svg")
                                      .attr("width", 1600)
-                                     .attr("height", 1600);
+                                     .attr("height", 300);
 
 	var svgImgHeight = d3.select("svg").attr("height"); 
 	var svgImgWidth = d3.select("svg").attr("width");                                     
