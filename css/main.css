@@ -48,6 +48,16 @@ p {
 	font-size: 18px;
 	}
 
+	.arrow-down {
+	position: relative;
+	left: 43%;
+	width: 0px;
+	height: 0px;
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;
+	border-top: 20px solid #5AA7F5;
+	}
+
 	p {
 		font-size: 15px;
 	}
