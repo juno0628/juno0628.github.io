@@ -10,7 +10,7 @@ $(document).ready(function(){
 	var svgRect = svgImg.append("rect")
 	.attr("width", "100%")
 	.attr("height", "100%")
-	.attr("fill", "#89DB5F");
+	.attr("fill", "#60ADEE");
 
 	//Draw the Circle
 

@@ -19,15 +19,27 @@ hr {
 	margin-bottom: 0px;
 	z-index: 501;
 	font-size: 20px;
+	background-color: #5AA7F5;
 }
 
 p {
 	font-size: 17px;
 }
 
-@media (max-width: 300px) {
+.arrow-down {
+	position: relative;
+	left: 48%;
+	width: 0px;
+	height: 0px;
+	border-right: 40px solid transparent;
+	border-left: 40px solid transparent;
+	border-top: 40px solid #5AA7F5;
+}
+
+@media (max-width: 800px) {
 	body {
 		text-align: center;
+		background-color: #E79A64
 	}
 
 	.navbar-static-top {
