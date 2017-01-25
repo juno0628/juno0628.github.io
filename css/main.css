@@ -25,7 +25,7 @@ p {
 	font-size: 17px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 300px) {
 	body {
 		text-align: center;
 	}
